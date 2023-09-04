@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dracula">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquyresDev</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-base-300 rounded-b-lg  flex flex-col lg:flex-row flex-justify-end">
+            <div class="flex flex-col md:flex-row  px-2 ">
+                <a
+                    class="p-2 text-4xl bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-300 to-slate-100">SarahSquyres</a>
+                <a
+                    class="animate-pulse text-2xl bg-clip-text text-transparent bg-gradient-to-r from-slate-100 to-fuchsia-300">[fullStackDev]</a>
+            </div>
+            <div class="flex justify-end flex-1 px-2">
+                <div class="flex flex-col md:flex-row items-center">
+                    <details class="dropdown">
+                        <summary class="m-1 btn btn-ghost rounded-btn normal-case text-xl text-slate-100">aboutMe</summary>
+                        <div tabindex="0" class="dropdown-content z-[1] card card-compact w-64 p-2 shadow bg-slate-100 text-primary-content">
+                        <div class="card-body">
+                            <h3 class="card-title">Hi!</h3><div class="avatar">
+                                <div class="w-20 rounded">
+                                  <img src="https://i.ibb.co/C64S2c9/Profile-Pic2.jpg" alt="Profile-Pic2" />
+                                </div>
+                              </div>
+                            <p>
+                                i'm Sarah, a full-stack web developer.  I am a driven, creative and curious junior software engineer with a passion for 
+                                elegant problem-solving and life-long learning.  I build scalable, progressive, and intuitive web applications using 
+                                flexible data models and Agile development methodologies.
+                            </p>
+                          </div>
+                      </details>
+                      <a class="btn btn-ghost rounded-btn normal-case text-xl text-slate-100">contact</a>
+                    <a href="https://docs.google.com/document/d/1mjbA3e3855d1phBTr4W0IIwIHeLfmGZ0I0s1wi9xUVk/edit?usp=sharing" target="_blank" class="btn btn-ghost rounded-btn normal-case text-xl text-slate-100">resume</a>
+                    <details class="dropdown">
+                        <summary class="m-1 btn btn-ghost rounded-btn normal-case text-xl text-slate-100">interests</summary>
+                        <ul class="p-2 shadow menu dropdown-content bg-slate-100 text-primary-content mt-4 z-[1] bg-base-100 rounded-box w-52">
+                          <li><a>AI</a></li>
+                          <li><a>serverSide</a></li>
+                          <li><a>clientSide</a></li>
+                        </ul>
+                      </details>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="flex flex-col md:flex-row items-center justify-center p-10">
+        <p class="text-xl ">Hello!</p>
+      </div>
+      <div class="flex flex-col md:flex-row items-center justify-center">
+        <details class="dropdown justify-center">
+            <summary class="btn btn-outline normal-case text-xl text-slate-100 hover:bg-fuchsia-300">myProjects
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+            </summary>
+            <div tabindex="0" class="dropdown-content z-[1] card card-compact w-64 p-2 shadow ">
+            <div class="card-body">
+
+                <div class="w-64 carousel rounded-box">
+                  <div id="item1" class="carousel-item w-full">
+                    <img src="https://i.ibb.co/92kkDDQ/portfolio-study-guide.png"  class="w-full" alt="portfolio-study-guide" />
+                  </div> 
+                  <div id="item2" class="carousel-item w-full">
+                    <img src="https://i.ibb.co/sgzsz1d/portfolio-gsd.png"  class="w-full" alt="portfolio-gsd" />
+                  </div> 
+                  <div id="item3" class="carousel-item w-full">
+                    <img src="https://i.ibb.co/Jy2Jw8f/portfolio-note-taker.png"  class="w-full" alt="portfolio-note-taker" />
+                  </div> 
+                  <div id="item4" class="carousel-item w-full">
+                      <a href="https://sarahsquyres.github.io/day-scheduler/" ><img src="https://i.ibb.co/FnpDRwf/portfolio-day-scheduler.png"  class="w-full" alt="portfolio-day-scheduler" />
+                  </div> 
+                </div>
+                <div class="flex justify-center w-full py-2 gap-2">
+                  <a href="#item1" class="btn btn-outline btn-s">1</a> 
+                  <a href="#item2" class="btn btn-outline btn-s">2</a> 
+                  <a href="#item3" class="btn btn-outline btn-s">3</a> 
+                  <a href="#item4" class="btn btn-outline btn-s">4</a>
+                </div>
+
+              </div>
+          </details>
+
+
+
+    </main>
+</body>
+
+</html>
